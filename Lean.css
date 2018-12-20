@@ -1148,6 +1148,12 @@ svg.icon-2aINcz.da-icon {
 /*Discord Video Player End*/
 
 /*Store*/
+[style="width: 24px; height: 24px; border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+	background-color: #3504c1 !important;
+}
+.theme-dark .searchBox-3Y2Vi7 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .theme-dark .iconCircle-1dlYo0 {
     background-color: rgba(53, 4, 193, 0.6);
 }
@@ -1222,6 +1228,9 @@ svg.icon-2aINcz.da-icon {
     background-image: none;
 }
 .theme-dark .premium-39U29H:before, .theme-light .premium-39U29H:before {
+    background-image: none;
+}
+.theme-dark .filterBackground-QanGTJ:before {
     background-image: none;
 }
 .theme-dark .applicationStore-1pNvnv {
@@ -1494,6 +1503,13 @@ span.username-_4ZSMR.da-username, span.usernameOnline-3jr_0Y.username-1cB_5E.da-
 /*Redeem*/
 .theme-dark .root-1BQpZw {
     background-color: rgba(0, 0, 0, 0.9);
+}
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+    background-color: #3504c1;
+    color: #fff;
+}
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
+    background-color: #3504c1;
 }
 /*Redeem End*/
 
