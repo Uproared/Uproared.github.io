@@ -278,7 +278,7 @@
     box-shadow: inset 0px 0px 20px 0px rgba(53, 4, 193, 0.4);
 }
 .popout-open .header-2o-2hj {
-    background-color: rgba(0, 0, 0, 0.39);
+    background-color: transparent;
 }
 .theme-dark .divider-2PMBlV {
     background: #4825a8;
@@ -325,6 +325,28 @@
 	top: 1px;
 }
 /*Typing... End*/
+
+/*Mic Test*/
+.theme-dark .progress-1IcQ3A {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+.theme-dark .notches-1sAcEM {
+    filter: brightness(0);
+    opacity: 0.6;
+    border-radius: 5px;
+}
+[style="width: 560px; background: linear-gradient(to right, rgb(251, 184, 72), rgb(67, 181, 129));"] {
+    background: linear-gradient(to right, #c17c04, #3504c1) !important;
+	border-radius: 5px;
+}
+[style="background: rgb(105, 196, 154);"] {
+	background: #3504c1 !important;
+}
+[style="background: rgb(251, 184, 72); width: 100%;"] {
+	background: #c17c04 !important;
+}
+/*Mic Test End*/
 
 /*Emote Buttons Bottom*/
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c {
@@ -411,6 +433,13 @@
 
 
 /*Emotes/Emote Button*/
+.bda-dark .emoji-picker .diversity-selector .popout-3sVMXz, .bda-dark .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
+    background: #000000;
+    border-color: #000000;
+}
+.bda-dark .emoji-picker .dimmer.visible, .bda-dark .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
+    background-color: rgba(0, 0, 0, 0.65);
+}
 .emojiPicker-3m1S-j .category-2U57w6 {
     color: #d7c7f0;
 }
@@ -1059,6 +1088,21 @@ button.iconButtonDefault-2cKx7-.iconButton-3V4WS5.da-iconButtonDefault.da-iconBu
     border-color: #3504c1;
     color: #3504c1;
 }
+.icon-2doZ3q {
+    filter: contrast(0);
+}
+.theme-dark .item-1GzJrl.invite-271nFU {
+    color: #4825a8;
+}
+.theme-dark .item-1GzJrl:hover.invite-271nFU {
+    color: #d7c7f0;
+}
+.menu-Sp6bN1 {
+    border-radius: 0px;
+}
+.theme-dark .item-1GzJrl.leave-1DRJfn {
+    color: #4825a8;
+}
 /*Server Settings End*/
 
 /*Better Discord Settings*/
@@ -1618,6 +1662,12 @@ svg.spotifyButtonLogo-u4uSmg.da-spotifyButtonLogo {
 .theme-dark .reaction-1ELvT8 {
     background: rgba(72, 37, 168, 0.4);
 }
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
+    background: rgba(72, 37, 168, 0.4);
+}
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
+    color: #d7c7f0;
+}
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
     border-color: rgba(0, 0, 0, 0.6);
 }
@@ -1753,6 +1803,10 @@ span.username-_4ZSMR.da-username, span.usernameOnline-3jr_0Y.username-1cB_5E.da-
     background-color: #3504c1 !important;
     border-radius: 0px;
 }
+.embedImage-2W1cML, .embedThumbnail-2Y84-K, .embedVideo-3nf0O9 {
+    border-radius: 0px;
+}
+
 /*Embedded End*/
 
 /*Discord Home Page*/
@@ -1921,6 +1975,9 @@ html .tabBadge-3smxHS {
 /*Profile Popout/Modal End*/
 
 /*Popouts/User Info*/
+.popout-3sVMXz {
+    border-radius: 0px;
+}
 .theme-dark .footer-1fjuF6 {
     border-color: rgba(53, 4, 193, 0.4);
 }
